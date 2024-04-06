@@ -92,12 +92,6 @@ nav{
     font-weight: 600;
     font-size: 16px;
 }
-/* .nav-content__menu ul li:not(:first-child){
-    color: var(--color_7d7c7c);
-}
-.nav-content__menu ul li:first-child{
-    color: var(--color_c90000);
-} */
 .nav-content__btns{
     gap: 0.5rem;
 }
@@ -319,7 +313,6 @@ nav{
     font-size: 48px;
     font-weight: 600;
     position: relative;
-    /* text-decoration: underline #fadd7f 10px; */
 }
 .menu-content__title p::after{
     content: "";
@@ -334,7 +327,7 @@ nav{
 .menu-content__btns{
     margin-top: 32px;
     display: flex;
-    /* ایجا اسکرول توی باکس */
+    /* ایجاداسکرول توی باکس */
     overflow-x: auto;
 }
 .btn-display{
@@ -468,7 +461,6 @@ nav{
     color: var(--color_c90000);
     font-size: 48px;
     font-weight: 600;
-    /* line-height: 72px; */
     position: relative;
 }
 .saleoff__title p::after{
@@ -512,8 +504,7 @@ nav{
 }
 .saleoff__card:hover{
     background-color: #d62822;
-    /*height: 355px;
-    */cursor: pointer;
+    cursor: pointer;
     transform: scaleY(1.1);
     -webkit-transform: scaleY(1.1);
     -moz-transform: scaleY(1.1);
@@ -845,6 +836,8 @@ nav{
 }
 
 /* footer */
+
+
 footer{
     margin-top: 72px;
     background-color: #fffde6;
